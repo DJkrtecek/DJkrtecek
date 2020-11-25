@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    margin-right: 5%;
+    }
+a {
+    color: rgb(248, 91, 0);
+    font-weight: bold;
+    }
+.pozadi{
+    background-image: url("https://www.paperstreet.com/blog/wp-content/uploads/2016/04/iStock_000080733521_Double.jpg");
+    background-size: cover;
+    min-height: 100%; 
+    position: absolute; 
+    background-color: rgba(255,255,255, 0.5);
+    background-blend-mode: lighten ;
+    z-index: -1; 
+    left: 0;
+    top: 0;
+    background-repeat: repeat-y;
+}   
+.profilepicture {
+    width: 200px;
+    margin-right: 35px;
+}
+.fullradek {
+    width: 100%;
+    flex-grow: 1;
+}
+.halfradek {
+    width: 50%;
+    flex-grow: 0.5;
+}
+.centre {
+    display: flex;
+    justify-content: center;
+}
